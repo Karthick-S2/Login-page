@@ -36,7 +36,7 @@ const Login = () => {
     if (!validate()) return;
 
     try {
-      const res = await axios.post("https://login-2amz.onrender.com", {
+      const res = await axios.post("https://login-2amz.onrender.com/login", {
         username,
         password,
       });
